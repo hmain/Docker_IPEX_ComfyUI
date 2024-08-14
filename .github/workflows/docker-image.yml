@@ -29,5 +29,4 @@ jobs:
       with:
         push: true
         tags: |
-          ghcr.io/dockeripexcomfyui:${{ github.sha }}
           ghcr.io/dockeripexcomfyui:latest
