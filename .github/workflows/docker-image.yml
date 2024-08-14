@@ -29,5 +29,5 @@ jobs:
       with:
         push: true
         tags: |
-          ghcr.io/${{ github.repository.toLowerCase }}:${{ github.sha }}
-          ghcr.io/${{ github.repository.toLowerCase }}:latest
+          ghcr.io/dockeripexcomfyui:${{ github.sha }}
+          ghcr.io/dockeripexcomfyui:latest
